@@ -1,0 +1,12 @@
+#calc{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.button-container{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.button-container > *{
+    font-size: larger;
+}
